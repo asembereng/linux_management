@@ -17,6 +17,7 @@ A comprehensive collection of bash scripts for managing and maintaining Linux sy
 
 ```
 linux_management/
+├── linux_manager.sh     # Interactive master script
 ├── scripts/
 │   ├── system/           # System monitoring and information
 │   ├── packages/         # Package management utilities
@@ -45,7 +46,17 @@ linux_management/
 2. Make scripts executable:
    ```bash
    chmod +x scripts/**/*.sh
+   chmod +x linux_manager.sh
    ```
+
+### Interactive Menu (Recommended for Beginners)
+
+Launch the interactive menu system:
+```bash
+./linux_manager.sh
+```
+
+This provides a user-friendly interface to access all tools with guided prompts.
 
 ### Basic Usage Examples
 
